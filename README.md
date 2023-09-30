@@ -20,7 +20,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [(https://github.com/Kofiastro/adviceGeneratorApp)]
+- Solution URL: [(https://github.com/Kofiastro/Huddle-Single-Landing-Page)]
 - Live Site URL:[(https://advice-generator-app-6s9z-60w5etkl4-kofiastro.vercel.app/)]
 
 ## My process
@@ -29,35 +29,13 @@ This is my first react web app using Api's.This project has taught me alot about
 ### Built with
 
 - React with Vite
-- Framer motion
+- React-Icons
 - TailwindCss
 
 ### What I learned
 
-Alot has been grasped.From components to hooks to states to using props and transitioning to context Api has really been ey opening.
+REgular working on tailwindcss to build my skills in FrontEnd Developement
 
-```jsx
- function advicegeneratorUI({}) {
-  const { advice, adviceText } = useContext(AdviceContext)
-  useEffect(() => {
-    adviceApi()
-  })
-  //Gen and fetching  the advice Api
-  const adviceApi = async () => {
-    try {
-      const response = await fetch("https://api.adviceslip.com/advice")
-      const data = await response.json()
-      if (!response.ok) {
-        adviceText("Advice Loading")
-      }
-      adviceText(data.slip.advice)
-    } catch (error) {
-      console.log(error)
-      adviceText("OOps!,Advice on Pause")
-    }
-  }
-  return (
-```
 ## Author
 
 - Frontend Mentor - [@Kofiastro](https://www.frontendmentor.io/profile/kofiastro)
