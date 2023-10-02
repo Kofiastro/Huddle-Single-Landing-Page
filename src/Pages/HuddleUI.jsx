@@ -30,7 +30,7 @@ function HuddleUI() {
           </p>
           <div>
             {/* Button */}
-            <button className='font-Poppings  text-sm shadow-lg text-center p-3 px-16 bg-white mx-auto hover:bg-SoftMagenta  hover:text-white text-Violet rounded-full  md:p-4 md:px-20 '>
+            <button className='font-Poppings  text-sm shadow-md shadow-black text-center p-3 px-16 bg-white mx-auto hover:bg-SoftMagenta  hover:text-white text-Violet rounded-full  md:p-4 md:px-20 '>
               Register
             </button>
           </div>
